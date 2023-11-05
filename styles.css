@@ -58,10 +58,14 @@ img {
   .container {
     grid-template-columns: repeat(1, 1fr);
   }
+  .imges {
+    grid-row-start: 1;
+  }
   .text {
     justify-content: center;
     align-items: center;
     text-align: center;
+    grid-row-start: 2;
   }
   .like {
     grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
